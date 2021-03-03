@@ -53,7 +53,7 @@ class GroupsController < ApplicationController
 
         redirect_to group_path(@group)
       end
-ß
+
       def quit
         @group = Group.find(params[:id])
 
